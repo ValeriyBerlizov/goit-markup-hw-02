@@ -41,23 +41,30 @@ body {
   .contact-link:hover, .contact-link:focus {
     color: #404bbf;
   }
-  .footer_class {
-    background-color: #2e2f42;
-  }
-  .logo_class {
-    font-family: "Raleway", sans-serif;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: #4d5ae5;
+  /* Стиль для футера */
+.footer {
+  background-color: #2e2f42; /* Фон футера */
 }
-.logo_text {
-  color: #f4f4fd;
+
+/* Стиль для логотипа */
+.footer-logo {
+  font-family: "Raleway", sans-serif; /* Шрифт логотипа */
+  font-weight: 700; /* Жирний шрифт */
+  font-size: 18px; /* Розмір шрифта */
+  line-height: 1.17; /* Простір між рядками */
+  letter-spacing: 0.03em; /* Відступи між літерами */
+  text-transform: uppercase; /* Великі літери */
+  color: #4d5ae5; /* Колір тексту */
 }
-.footer_paragraph {
-  line-height: 1.5;
-  color: var(--footer-text-color, #F4F4FD);
-  letter-spacing: 0.02em;
+
+/* Стиль для span всередині логотипа */
+.footer-logo span {
+  color: #f4f4fd; /* Колір тексту для span */
+}
+
+/* Стиль для параграфа */
+.footer-paragraph {
+  line-height: 1.5; /* Простір між рядками */
+  color: var(--text-color, #F4F4FD); /* Колір тексту (CSS змінна) */
+  letter-spacing: 0.02em; /* Відступи між літерами */
 }
