@@ -41,3 +41,23 @@ body {
   .contact-link:hover, .contact-link:focus {
     color: #404bbf;
   }
+  .footer_class {
+    background-color: #2e2f42;
+  }
+  .logo_class {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+}
+.logo_text {
+  color: #f4f4fd;
+}
+.footer_paragraph {
+  line-height: 1.5;
+  color: var(--footer-text-color, #F4F4FD);
+  letter-spacing: 0.02em;
+}
